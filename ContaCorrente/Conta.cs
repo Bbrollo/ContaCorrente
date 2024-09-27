@@ -2,8 +2,8 @@
 
 namespace ContaCorrente {
     internal class Conta {
-        private int NumeroConta;
-        public string Nome { get; private set;}
+        public int NumeroConta { get; private set; }
+        public string Nome { get; set;}
         public double Saldo { get; private set;}
 
         public Conta(int numeroConta, string nome, double saldo) {
